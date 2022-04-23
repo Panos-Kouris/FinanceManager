@@ -18,6 +18,27 @@ Screen:
                 icon: "home-outline"
                 id: homeScreen
                 on_tab_press: toolBar.title = homeScreen.text
+                
+                
+                MDLabel:
+                    text: 'ΙNCOME'
+                    font_style: 'H6'
+                    pos_hint:{"x": .1, "y": 0}
+
+                MDLabel:
+                    text: 'EXPENSES'
+                    font_style: 'H6'
+                    pos_hint: {"x": .65, "y": 0}
+
+                MDLabel:
+                    text: '200'
+                    font_style: 'H6'
+                    pos_hint: {"x": .15, "y": -(.1)}
+
+                MDLabel:
+                    text: '125'
+                    font_style: 'H6'
+                    pos_hint: {"x": .7, "y": -(.1)}
     
             MDBottomNavigationItem:
                 name: 'screen 2'
